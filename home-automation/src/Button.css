@@ -1,0 +1,25 @@
+.btn {
+  font-size: 1.6rem;
+  border-radius: 5rem;
+  height: 5rem;
+  width: 18rem;
+  background-size: cover;
+  border: 3px solid #ffffff;
+  margin: 1rem 3rem 1rem 3rem;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+}
+.btn-on {
+  background-color: #01261c;
+}
+.btn-off {
+  background-color: #8c0303;
+}
+.auto {
+  background-color: #092840;
+}
+.btn:hover {
+  transform: scale(1.09);
+  transition: 0.5s ease;
+}

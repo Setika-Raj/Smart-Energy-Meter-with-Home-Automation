@@ -1,0 +1,51 @@
+.App {
+  background-size: cover;
+  background-image: url("./bulb_bg.jpg");
+  height: 100vh;
+  width: 100vw;
+  filter: brightness(76%);
+  justify-content: center;
+  align-items: space-between;
+  overflow-x: hidden;
+}
+
+.Header {
+  color: white;
+  font-family: "Heebo", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+  object-fit: contain;
+  padding: 1.5rem;
+}
+.Content {
+  margin-top: 8rem;
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Row1 {
+  width: 100%;
+  object-fit: contain;
+  margin-top: 1.2rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+}
+
+.Row2 {
+  width: 100%;
+  object-fit: contain;
+  margin-top: 2.2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
